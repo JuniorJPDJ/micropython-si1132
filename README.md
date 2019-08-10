@@ -3,7 +3,7 @@ Micropython I2C driver for Silabs Si1132 - UV index and ambient light sensor
 
 ### how to use this library
 I'm using it with ESP8266 µC, to read values I need to connect sensor over I2C to the ESP's GPIO.
-I connected SDA to GPIO13 and SCL to GPIO12 (you may use any other I2C capable GPIOs) then used this code to read values:
+I connected SDA to GPIO13 and SCL to GPIO12 (you may use any other I2C capable GPIOs and µC) then used this code to read values:
 
 ``` python
 import machine
